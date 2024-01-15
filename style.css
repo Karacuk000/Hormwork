@@ -1,0 +1,26 @@
+.Blocks {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  animation-name: block;
+  animation-delay: 10s;
+  
+@keyframes block {
+   
+  0% {
+    color: rgb(255, 0, 0);
+    margin-left: 500px;
+  }
+  25% {
+    color: rgb(47, 0, 255);
+    margin-bottom: 500px;
+}
+   50% {
+    color: green;
+    margin-right: 500px;
+   }
+   100% {
+    color: rgb(255, 251, 0);
+    margin-top: 500px;
+   }
+  }
